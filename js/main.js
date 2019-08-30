@@ -1,28 +1,35 @@
 "use strict";
-// main global variables that all the functions use 
 var title = document.title;
 var restaurants = [];
 var filteredList = [];
 var donts = {};
 
-  
 var pucker_restaurants = [
+    "Cafe 220",
+    "Chipotle",
+    "Ikes",
+    "Jing Jing",
     "Lemonade",
     "Onigilly",
+    "Pizza",
     "Shake Shack",
     "Sprouts",
+    "Subway",
+    "Sushiritto",
+    "Thaiphoon",
+    "Wahlburgers",
     "Whole Foods"
   ];
 
 var pucker_donts = {
-  ani : ["Sprouts"],
-  erick : [],
+  ani : ["Sprouts", "Pizza", "Ikes", "Subway"],
+  eric : ["Whole Foods"],
   matthew : [],
   mark: [],
   ratnakar : [],
   rick : ["Sprouts"],
   sanjoy : [],
-  soniya : ["Lemonade", "Onigilly", "Shake Shack", "Sprouts", "Whole Foods"]
+  soniya : []
 };
   
 function setGlobalVariables() {
